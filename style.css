@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cormorant;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+#main{
+  width: 100%;
+  height: 100%;
+}
+
+#intro{
+  height: 45%;
+  width: 100%;
+  background-color: bisque;
+  padding: 50px 60px;
+}
+
+#intro h1{
+  font-size: 140px;
+  letter-spacing: -3px;
+  line-height: 130px;
+}
+
+#place{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 23px;
+}
+
+#hero-image{
+  height: 97%;
+  width: 100%;
+  background-color: orange;
+  background-size: cover;
+  object-position:top;
+  background-image: url(./WhatsApp\ Image\ 2024-08-15\ at\ 18.38.39_d42dc8da.jpg);
+}
+
+#nav{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 30px 40px;
+  position: fixed;
+  width: 100%;
+}
+
+#nav h3{
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  font-size: 20px;
+  border-radius: 30%;
+  margin-left: 5px;
+}
+
+#about{
+  height: 45%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+#about h2{
+  width: 60%;
+  font-size: 90px;
+  line-height: 85px;
+  font-weight: 600;
+  letter-spacing: -4px;
+}
+
+#about-part2{
+  width: 36%;
+  height: 100%;
+  padding: 0 50px;
+  border-left: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#about-part2 h3{
+  font-size: 33px;
+  font-weight: 600;
+}
+
+#icons i{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+#work{
+  height: 55%;
+  width: 100%;
+  border-top: 2px solid black;
+  display: flex;
+  padding: 50px 60px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+#work1{
+  width: 35%;
+  height: 100%;
+  border-right: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 60px;
+
+}
+
+#work1 h3{
+  font-size: 33px;
+}
+
+#work1 i{
+  font-size: 30px;
+}
+
+#work2{
+  height: 100%;
+  width: 65%;
+  padding: 0 60px;
+}
+
+.work2-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    
+}
+
+.work2-part:nth-child(1){
+    border-bottom: 2px solid black;
+}
+
+.work2-part .elm{
+  width: 50%;
+  height: 100%;
+ }
+
+.work2-part .elm:nth-child(2){
+  border-left: 2px solid black;
+  padding-left: 50px;
+
+}
+
+.work2-part .elm h4{
+  font-size: 45px;
+}
+
+.work2-part .elm p{
+  font-size: 20px;
+  color: gray;
+}
+
+.work2-part:nth-child(1){
+  padding-top: 0px;
+}
